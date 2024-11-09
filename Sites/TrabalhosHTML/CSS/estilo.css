@@ -1,0 +1,61 @@
+body {
+    background: beige
+}
+h1{
+    color:olive;
+    font-size: 50px;
+}
+h2{
+    color:rgb(23, 219, 154);
+    font-size: 25px;
+}
+.menus{
+    text-decoration:none;
+    background-color: olive;
+    color: white;
+    text-align: center;
+    height: 25px;
+    margin-top:-8px;
+}
+a{  text-decoration:none;
+    color:beige;
+}
+
+.titulo{
+    text-decoration:none;
+    height:200px;
+    color:beige;
+    background-color: bisque;
+    background-image: url("../Imagens/background.jpg");
+    background-size:cover;
+    background-position: center;
+}
+.botao{
+    text-decoration: none;
+   background-color: olive;
+   color:beige;
+   padding: 5px;
+   border-radius:10px ;
+}
+.botao:hover{
+    <---background-color:#0CC0DF;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1), -5px -5px 5 px rgb(190, 196, 182);
+}
+
+.botao2{
+    text-decoration: none;
+   background-color: olive;
+   color:beige;
+   border-radius:10px ;
+   padding-left: 10px;
+   padding-right: 10px;
+   
+}
+
+.botao2:hover{
+    <---background-color:#0a4049;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1), -10px -10px 10px rgb(190, 196, 182);
+}
+.elemento{
+    resize:both;
+}
